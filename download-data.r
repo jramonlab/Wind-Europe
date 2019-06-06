@@ -20,7 +20,7 @@ url <- "https://www.ecad.eu//download/ECA_blend_source_dd.txt"
 dest_file <- "data/wind-direction/sources_dd.csv"
 download.file(url, dest_file)
 # getting data for stations for WIND DIRECTION
-url <- "https://www.ecad.eu//download/ECA_blend_source_dd.txt"
+url <- "https://www.ecad.eu//download/ECA_blend_station_dd.txt"
 dest_file <- "data/wind-direction/stations_dd.csv"
 download.file(url, dest_file)
 
